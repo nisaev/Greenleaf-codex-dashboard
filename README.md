@@ -4,6 +4,8 @@ Local web dashboard for Codex usage statistics. It reads your local Codex state 
 
 This project is not affiliated with OpenAI.
 
+![Codex Usage Dashboard screenshot](docs/screenshot.png)
+
 ## Features
 
 - Local-only dashboard served on `127.0.0.1`
