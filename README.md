@@ -78,6 +78,29 @@ cd Greenleaf-codex-dashboard
 npm install
 ```
 
+## Update
+
+If you already downloaded an older release, update from the project directory:
+
+```bash
+git pull
+npm install
+```
+
+Then start the dashboard again:
+
+```bash
+npm start
+```
+
+To install a specific release instead of the latest `main`, use a tag:
+
+```bash
+git fetch --tags
+git checkout v1.0.1
+npm install
+```
+
 ## Run
 
 ```bash
