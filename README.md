@@ -70,6 +70,10 @@ Do not run this bound to a public interface unless you have reviewed the code an
 - Python 3.10+
 - Local Codex logs in `~/.codex`
 
+On Windows, `~/.codex` resolves to `%USERPROFILE%\.codex`.
+
+The launcher and smoke-check try `python` first, then `python3`. You can also override the interpreter with the `PYTHON` environment variable.
+
 ## Install
 
 ```bash

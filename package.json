@@ -11,7 +11,7 @@
     "dev:all": "node dev.mjs",
     "build": "vite build",
     "preview": "vite preview --host 127.0.0.1 --port 8765",
-    "check": "python3 dashboard_api.py --check"
+    "check": "node scripts/python-command.mjs dashboard_api.py --check"
   },
   "engines": {
     "node": ">=20",
